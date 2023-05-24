@@ -1,0 +1,26 @@
+/* Default height for small devices */
+#intro-example {
+    height: 400px;
+}
+
+/* Height for devices larger than 992px */
+@media (min-width: 992px) {
+    #intro-example {
+        height: 600px;
+    }
+}
+
+.cook img{
+   
+    width: 50px;
+    height: 50px;
+    
+   
+   }
+
+.notification {
+    background-color: whitesmoke;
+    border-radius: 4px;
+    position: relative;
+    padding: 1.25rem 2.5rem 1.25rem 1.5rem;
+  }
